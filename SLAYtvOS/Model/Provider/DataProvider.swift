@@ -52,18 +52,18 @@ class DataProvider: ObservableObject {
 
   init() {
     categories = [
-      Category(title: "SwiftUI", videos: [
+      Category(title: "루이비통", videos: [
         Video(
-          title: "SwiftUI",
+          title: "루이비통-퍼렐 윌리엄스.",
           description: "",
-          thumbnailName: "swiftui"
+          thumbnailName: "루이비통-퍼렐 윌리엄스."
         )
       ]),
-      Category(title: "UIKit", videos: [
+      Category(title: "프라다", videos: [
         Video(
-          title: "Demystifying Views in iOS",
+          title: "마리아 그라치아 치우리",
           description: "",
-          thumbnailName: "views"
+          thumbnailName: "마리아 그라치아 치우리"
         ),
         Video(
           title: "Reproducing Popular iOS Controls",

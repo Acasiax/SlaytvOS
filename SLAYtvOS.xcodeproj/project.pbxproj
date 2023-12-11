@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1045D02B274538005B7B5D /* fashionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1045CF2B274538005B7B5D /* fashionview.swift */; };
 		B0C5D67F258056EF00CA844D /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C5D67E258056EF00CA844D /* VideoDetailView.swift */; };
-		B0EC51B6255F417A00E79228 /* RickTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC51B5255F417A00E79228 /* RickTVApp.swift */; };
+		B0EC51B6255F417A00E79228 /* SLAYtvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC51B5255F417A00E79228 /* SLAYtvOSApp.swift */; };
 		B0EC51B8255F417A00E79228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC51B7255F417A00E79228 /* ContentView.swift */; };
 		B0EC51BA255F417B00E79228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EC51B9255F417B00E79228 /* Assets.xcassets */; };
 		B0EC51BD255F417B00E79228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EC51BC255F417B00E79228 /* Preview Assets.xcassets */; };
@@ -26,9 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1045CF2B274538005B7B5D /* fashionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionview.swift; sourceTree = "<group>"; };
 		B0C5D67E258056EF00CA844D /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		B0EC51B3255F417A00E79228 /* SLAYtvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLAYtvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0EC51B5255F417A00E79228 /* RickTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickTVApp.swift; sourceTree = "<group>"; };
+		B0EC51B5255F417A00E79228 /* SLAYtvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAYtvOSApp.swift; sourceTree = "<group>"; };
 		B0EC51B7255F417A00E79228 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0EC51B9255F417B00E79228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EC51BC255F417B00E79228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AA1045CE2B27451F005B7B5D /* Fashion */ = {
+			isa = PBXGroup;
+			children = (
+				AA1045CF2B274538005B7B5D /* fashionview.swift */,
+			);
+			path = Fashion;
+			sourceTree = "<group>";
+		};
 		B0C5D67D258056E400CA844D /* VideoDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +96,8 @@
 		B0EC51B4255F417A00E79228 /* SLAYtvOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0EC51B5255F417A00E79228 /* RickTVApp.swift */,
+				AA1045CE2B27451F005B7B5D /* Fashion */,
+				B0EC51B5255F417A00E79228 /* SLAYtvOSApp.swift */,
 				B0EC51B7255F417A00E79228 /* ContentView.swift */,
 				B0EC51D1255F424F00E79228 /* Model */,
 				B0EC51D6255F492400E79228 /* View */,
@@ -244,13 +255,14 @@
 				B0C5D67F258056EF00CA844D /* VideoDetailView.swift in Sources */,
 				B0EC51B8255F417A00E79228 /* ContentView.swift in Sources */,
 				B0EC51D3255F425B00E79228 /* Video.swift in Sources */,
-				B0EC51B6255F417A00E79228 /* RickTVApp.swift in Sources */,
+				B0EC51B6255F417A00E79228 /* SLAYtvOSApp.swift in Sources */,
 				B0EC52442561CF3300E79228 /* CategoryListView.swift in Sources */,
 				B0EC5239255F4F3A00E79228 /* CategoryRow.swift in Sources */,
 				B0EC522C255F4CD300E79228 /* PlayerView.swift in Sources */,
 				B0EC52412561CA6100E79228 /* CategoryProvider.swift in Sources */,
 				B0EC5235255F4E4700E79228 /* AVPlayer+Extension.swift in Sources */,
 				B0FBD10925806E2C0087AB46 /* DataProvider.swift in Sources */,
+				AA1045D02B274538005B7B5D /* fashionview.swift in Sources */,
 				B0EC523D2561C72400E79228 /* Category.swift in Sources */,
 				B0FBD106258069030087AB46 /* PlainNavigationLinkButton.swift in Sources */,
 			);

@@ -33,7 +33,7 @@
 import SwiftUI
 
 @main
-struct RickTVApp: App {
+struct SLAYtvOSApp: App {
   var body: some Scene {
     WindowGroup {
       ContentView()
