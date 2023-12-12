@@ -71,11 +71,11 @@ class DataProvider: ObservableObject {
           thumbnailName: "controls"
         )
       ]),
-      Category(title: "Frameworks", videos: [
+      Category(title: "버버리", videos: [
         Video(
-          title: "Fastlane for iOS",
+          title: "버버리-리카르도 티시",
           description: "",
-          thumbnailName: "fastlane"
+          thumbnailName: "버버리-리카르도 티시"
         ),
         Video(
           title: "Beginning RxSwift",
@@ -83,11 +83,11 @@ class DataProvider: ObservableObject {
           thumbnailName: "rxswift"
         )
       ]),
-      Category(title: "Miscellaneous", videos: [
+      Category(title: "입생로랑", videos: [
         Video(
-          title: "Data Structures & Algorithms in Swift",
+          title: "입생로랑-안토니 바카렐로",
           description: "",
-          thumbnailName: "datastructures"
+          thumbnailName: "입생로랑-안토니 바카렐로"
         ),
         Video(
           title: "Beginning ARKit",

@@ -50,21 +50,24 @@ struct VideoDetailView: View {
     ScrollView(.vertical, showsIndicators: false) {
       HStack(alignment: .top, spacing: 40) {
         VStack(alignment: .leading) {
-          Image(video.thumbnailName)
-            .resizable()
-            .renderingMode(.original)
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 675, height: 382)
-            .clipped()
-            .cornerRadius(10)
-            .shadow(radius: 5)
-          Text(video.title)
-            .font(Font.title3)
-            .bold()
-          Text(video.description.isEmpty ? "No description provided for this video." : video.description)
-            .foregroundColor(Color.secondary)
-            .font(Font.headline)
-
+          ZStack(alignment: .center){
+            Image(video.thumbnailName)
+              .resizable()
+              .renderingMode(.original)
+              .aspectRatio(contentMode: .fill)
+              .frame(width: 1275, height: 682)
+              .clipped()
+              .cornerRadius(10)
+              .shadow(radius: 5)
+            VStack(alignment: .center){
+              Text(video.title)
+                .font(Font.title3)
+                .bold()
+              Text(video.description.isEmpty ? "No description provided for this video." : video.description)
+                .foregroundColor(Color.secondary)
+                .font(Font.headline)
+            }
+          }
           Divider()
 
           HStack(spacing: 40) {
